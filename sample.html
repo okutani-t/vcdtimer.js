@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>vcdtimer.js</title>
+  <style>
+  body {
+    text-align: center;
+    font-size: 30px;
+  }
+  .plus, .minus, .reset, .action {
+    display: inline-block;
+    background: tomato;
+    color: #fff;
+    padding: 5px 10px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .minus {
+    background: skyblue;
+  }
+  .reset {
+    background: limegreen;
+  }
+  .action {
+    background: gray;
+  }
+  .disabled {
+    opacity: 0.6;
+  }
+  </style>
+</head>
+<body>
+  <div class="vcdtimer">
+    <p>
+      残り時間: <span id="remaining_time"></span>
+    </p>
+    <p>
+      <span class="plus">+</span> <span class="minus">-</span> <span class="reset">reset</span> <span class="action">start</span>
+    </p>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+  <script src="./vcdtimer.js"></script>
+  <script>
+  $(function() {
+    $("#remaining_time").vcdTimer({
+      default_time: '03:00'
+    });
+  });
+  </script>
+</body>
+</html>
