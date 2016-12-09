@@ -31,6 +31,4 @@ $("#remainingTime").vcdTimer({
 });
 ```
 
-default_time
-
 author: okutani
