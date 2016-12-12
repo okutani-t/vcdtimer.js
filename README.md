@@ -1,14 +1,13 @@
 # vcdtimer.js
 
-A jQuery plugin for count down timer.
+A jQuery plugin for countdown timer.
 
 ## Description
 
 vcdtimer.js plugin is a simple countdown timer and can be from 1~99 minutes. This plugin is responsive.
 
-* mobile
-
-## Getting started
+* easy settings
+* responsive
 
 ## Demo
 
