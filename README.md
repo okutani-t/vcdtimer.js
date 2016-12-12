@@ -1,10 +1,24 @@
 # vcdtimer.js
 
-カウントダウンを行うタイマーのプラグイン。
+A jQuery plugin for count down timer.
 
-1～99分までカウントすることができる。
+## Description
 
-## HOW TO USE
+vcdtimer.js plugin is a simple countdown timer and can be from 1~99 minutes. This plugin is responsive.
+
+* mobile
+
+## Getting started
+
+## Demo
+
+* [https://okutani-t.github.io/vcdtimer.js/examples/basic.html](https://okutani-t.github.io/vcdtimer.js/examples/basic.html)
+
+## Requirement
+
+* [jQuery](http://jquery.com/)
+
+## Usage(Example)
 
 ```html
 <p>
@@ -23,7 +37,7 @@ $(function() {
 </script>
 ```
 
-## options
+### options
 
 ```javascript
 $("#remainingTime").vcdTimer({
@@ -31,4 +45,10 @@ $("#remainingTime").vcdTimer({
 });
 ```
 
-author: okutani
+## Licence
+
+[MIT](https://github.com/tcnksm/tool/blob/master/LICENCE)
+
+## Author
+
+[http://okutani.net](http://okutani.net)
